@@ -1,0 +1,403 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateClubdb {
+  onCreateClubdb {
+    id
+    club_name
+    first_name
+    last_name
+    email
+    password
+    logo
+    stadium_name
+    stadium_address
+    field_name1
+    field_name2
+    field_name3
+    field_address1
+    field_address2
+    field_address3
+    fitness_name
+    fitness_address
+    club_access
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateClubdb {
+  onUpdateClubdb {
+    id
+    club_name
+    first_name
+    last_name
+    email
+    password
+    logo
+    stadium_name
+    stadium_address
+    field_name1
+    field_name2
+    field_name3
+    field_address1
+    field_address2
+    field_address3
+    fitness_name
+    fitness_address
+    club_access
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteClubdb {
+  onDeleteClubdb {
+    id
+    club_name
+    first_name
+    last_name
+    email
+    password
+    logo
+    stadium_name
+    stadium_address
+    field_name1
+    field_name2
+    field_name3
+    field_address1
+    field_address2
+    field_address3
+    fitness_name
+    fitness_address
+    club_access
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateCoachdb {
+  onCreateCoachdb {
+    id
+    logo
+    coach_name
+    team_name
+    team_id
+    email
+    user_name
+    password
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateCoachdb {
+  onUpdateCoachdb {
+    id
+    logo
+    coach_name
+    team_name
+    team_id
+    email
+    user_name
+    password
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteCoachdb {
+  onDeleteCoachdb {
+    id
+    logo
+    coach_name
+    team_name
+    team_id
+    email
+    user_name
+    password
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateTeamdb {
+  onCreateTeamdb {
+    id
+    club_id
+    team_name
+    logo
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateTeamdb {
+  onUpdateTeamdb {
+    id
+    club_id
+    team_name
+    logo
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteTeamdb {
+  onDeleteTeamdb {
+    id
+    club_id
+    team_name
+    logo
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreatePlayerdb {
+  onCreatePlayerdb {
+    id
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    image
+    dob
+    address
+    height
+    weight
+    nationality
+    birthplace
+    languages
+    urgent_contact
+    preferred_foot
+    shirt_number
+    previous_club
+    license_number
+    transferred_players
+    first_license
+    national_team
+    positions
+    contract_length
+    teamwallet_admin
+    mobile_number
+    pain
+    intensive
+    feel_after_training
+    cool_after_training
+    hours_of_sleep
+    stressful
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdatePlayerdb {
+  onUpdatePlayerdb {
+    id
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    image
+    dob
+    address
+    height
+    weight
+    nationality
+    birthplace
+    languages
+    urgent_contact
+    preferred_foot
+    shirt_number
+    previous_club
+    license_number
+    transferred_players
+    first_license
+    national_team
+    positions
+    contract_length
+    teamwallet_admin
+    mobile_number
+    pain
+    intensive
+    feel_after_training
+    cool_after_training
+    hours_of_sleep
+    stressful
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeletePlayerdb {
+  onDeletePlayerdb {
+    id
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    image
+    dob
+    address
+    height
+    weight
+    nationality
+    birthplace
+    languages
+    urgent_contact
+    preferred_foot
+    shirt_number
+    previous_club
+    license_number
+    transferred_players
+    first_license
+    national_team
+    positions
+    contract_length
+    teamwallet_admin
+    mobile_number
+    pain
+    intensive
+    feel_after_training
+    cool_after_training
+    hours_of_sleep
+    stressful
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateMedicsdb {
+  onCreateMedicsdb {
+    id
+    team_name
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateMedicsdb {
+  onUpdateMedicsdb {
+    id
+    team_name
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteMedicsdb {
+  onDeleteMedicsdb {
+    id
+    team_name
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateDnadb {
+  onCreateDnadb {
+    league_name
+    cup_name_1
+    cup_name_2
+    jersy_color
+    shorts_color
+    socks_color
+    player_home
+    player_away
+    player_third
+    goalkeeper_home
+    goalkeeper_away
+    goalkeeper_third
+    team_id
+    id
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateDnadb {
+  onUpdateDnadb {
+    league_name
+    cup_name_1
+    cup_name_2
+    jersy_color
+    shorts_color
+    socks_color
+    player_home
+    player_away
+    player_third
+    goalkeeper_home
+    goalkeeper_away
+    goalkeeper_third
+    team_id
+    id
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteDnadb {
+  onDeleteDnadb {
+    league_name
+    cup_name_1
+    cup_name_2
+    jersy_color
+    shorts_color
+    socks_color
+    player_home
+    player_away
+    player_third
+    goalkeeper_home
+    goalkeeper_away
+    goalkeeper_third
+    team_id
+    id
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateStaffsdb {
+  onCreateStaffsdb {
+    id
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateStaffsdb {
+  onUpdateStaffsdb {
+    id
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteStaffsdb {
+  onDeleteStaffsdb {
+    id
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    createdAt
+    updatedAt
+  }
+}

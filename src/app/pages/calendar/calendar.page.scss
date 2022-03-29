@@ -1,0 +1,176 @@
+.toolbar{
+    --background: darkturquoise;
+}
+ion-toolbar{
+  --background-color:darkturquoise;
+  --color:white;
+}
+ion-card.timeCard{
+    box-shadow: none !important;
+    .timeContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .timeContainer .para{
+        text-align: justify;
+    }
+}
+// .btnSubmitt{
+//   --border-radius: 10px;
+//   --background: darkturquoise;
+//   color: white;
+// }
+
+// ion-calendar { .my-cal{ background-color: #6E6B6B !important; p{ color: white !important; } }}
+// .indicator-container {
+//     padding-left: 0.5rem;
+//     padding-bottom: 0.4rem;
+//   }
+ion-title{
+  font-family: 'Balsamiq Sans', cursive;
+}
+   
+  .event-indicator {
+    background: var(--ion-color-success);
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    display: table-cell;
+  }
+   
+  :host ::ng-deep {
+    .monthview-primary-with-event {
+      background-color: white !important;
+    }
+   
+    .monthview-selected {
+      background-color: var(--ion-color-success) !important;
+    }
+  }
+   
+  .with-event {
+    background-color: var(--ion-color-primary);
+    border-radius: 15px;
+  }
+
+  // calender css
+    
+
+.toolbar{
+  --background: darkturquoise;
+}
+
+.calendar{
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: darkturquoise;
+  border-radius: 10px;
+  border-style: outset;
+  border-color: turquoise;
+}
+
+.calendar-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+//   background-color: rgb(11, 11, 78);
+}
+
+.change-button{
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin: 0 10px;
+  // background-color: #edf0f5;
+  //cursor: pointer;
+}
+
+.calendar-body{
+  padding: 10px;
+}
+
+.calendar-weekdays{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-weight: 600;
+  height: 20px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.calendar-weekdays div{
+  display: grid;
+  place-items: center;
+  color: #c3c2c8;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: 1px solid black;
+  gap: 3px;
+  color: var(--color-txt);
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.calendar-days div{
+  // width: 32px;
+  // height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Balsamiq Sans', cursive;
+  padding: 3px;
+  position: relative;
+  border-radius: 50%;
+  font-size: 18px;
+}
+ 
+.calendar-days div.curr-date{
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 50%;
+}
+
+
+.btnSubmit{
+  --border-radius: 2.5vh;
+  --background: darkturquoise;
+  color: white;
+  padding-left:20vh;
+}
+
+.btnSubmitt{
+  --border-radius: 10px;
+  --background: darkturquoise;
+  color: white;
+}
+
+.btnSubmit1{
+  --border-radius: 2.5vh;
+  --background: green;
+  color: white;
+}
+
+.btnSubmit2{
+  --border-radius: 2.5vh;
+  --background: red;
+  color: white;
+}
+
+.divdate {
+    border-left: 1px solid gray;
+}
+
+.divdateD{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+

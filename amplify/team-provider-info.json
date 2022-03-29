@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-teams-dev-84220-authRole",
+      "UnauthRoleArn": "arn:aws:iam::648254266382:role/amplify-teams-dev-84220-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::648254266382:role/amplify-teams-dev-84220-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-teams-dev-84220-deployment",
+      "UnauthRoleName": "amplify-teams-dev-84220-unauthRole",
+      "StackName": "amplify-teams-dev-84220",
+      "StackId": "arn:aws:cloudformation:eu-west-1:648254266382:stack/amplify-teams-dev-84220/93e5fe70-a344-11ec-ba7c-029f2655ce8f",
+      "AmplifyAppId": "d1wtogehzgg0au"
+    },
+    "categories": {
+      "auth": {
+        "teamsc824a68e": {}
+      },
+      "storage": {
+        "teams85e7f11a": {
+          "bucketName": "querpassadmin8e199fe43d644295909aed920a19008a95612-dev",
+          "region": "eu-west-1"
+        }
+      }
+    }
+  }
+}

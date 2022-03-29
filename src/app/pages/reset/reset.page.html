@@ -1,0 +1,40 @@
+<ion-content [fullscreen]="true" class="welcome">
+  <ion-content class="welcome-sub">
+  <ion-card class="login" style="box-shadow: none;">
+    <ion-img src="assets/logo.png"></ion-img>
+    <ion-row style="justify-content: center;">
+      <p  style="color: black;"  class="" tappable (click)="navigateSignin()">Go Back to <span  style="color: black; "><u>Log in</u></span></p>
+      <p *ngIf="!switch" style="color: black;" class="">Enter your email id connect with your account</p>
+      </ion-row>
+    
+    <div class="input-field" style="padding:10px;">
+    
+    <ion-input *ngIf="!switch" style="border-radius: 25px;background: white;margin-top:5px;" [(ngModel)]="email">
+      <ion-row>
+        <ion-col class="col vl" style="padding-left:16px;width: 100px;text-align: start;">Email</ion-col>
+      </ion-row>
+    </ion-input>
+    <ion-input *ngIf="switch" style="border-radius: 25px;background: white;margin-top:5px;" [(ngModel)]="code">
+      <ion-row>
+        <ion-col class="col vl" style="padding-left:16px;width: 100px;text-align: start;">OTP</ion-col>
+      </ion-row>
+    </ion-input>
+    <ion-input *ngIf="switch" style="border-radius: 25px;background: white;margin-top:5px;" [(ngModel)]="newPass">
+      <ion-row>
+        <ion-col class="col vl" style="padding-left:16px;width: 100px;text-align: start;">Password</ion-col>
+      </ion-row>
+    </ion-input>
+    </div>
+   
+  </ion-card>
+  <ion-row style="justify-content: center;">
+  <ion-button *ngIf="!switch" type="button" fill="clear" style="border-radius: 6px;background: #0cf5f7;color: white;" tappable (click)="reset()">Reset Password
+  </ion-button>  
+  <ion-button *ngIf="switch" type="button" fill="clear" style="border-radius: 6px;background: #0cf5f7;color: white;" tappable (click)="set()">Submit
+  </ion-button>  
+ </ion-row>
+ 
+  </ion-content>
+</ion-content>        
+
+

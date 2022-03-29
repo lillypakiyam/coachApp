@@ -1,0 +1,35 @@
+<ion-card class="login" style="box-shadow: none;">
+  <!-- <ion-img src="assets/logo.png"></ion-img> -->
+  <!-- <ion-row style="justify-content: center;">
+    <p *ngIf="!switchCode" style="color: black;margin-top: 70px;" (click)="create()" class="">Create an account? <span  style="color: black; "><u>create</u></span></p>
+  
+    </ion-row> -->
+
+  
+  <div class="input-field" style="padding:10px;">
+  
+  <ion-input style="border-radius: 25px;background: white;margin-top:5px;" [(ngModel)]="club.email">
+    <ion-row>
+      <ion-col class="col vl" style="padding-left:16px;width: 100px;text-align: start;">Email</ion-col>
+    </ion-row>
+  </ion-input>
+  <ion-input style="border-radius: 25px;background: white;margin-top:5px;" [(ngModel)]="club.password">
+    <ion-row>
+      <ion-col class="col vl" style="padding-left: 5px;width: 100px;">Password</ion-col>
+       </ion-row>
+       <!-- <ion-icon [name]="encrypt.name" slot="end" style="font-size:20px;text-align: end;color: black;position: fixed;margin-left: 80%;" tappable (click)="togglePass()"></ion-icon> -->
+  </ion-input>
+  </div>
+ 
+</ion-card>
+<ion-row style="justify-content: center;">
+<ion-button type="button" fill="clear"  style="border-radius: 6px;background: #0cf5f7;color: white;" tappable (click)="save()">Login
+</ion-button>
+
+
+</ion-row>
+
+<ion-row style="justify-content: center;">
+<p style="color: black;margin-top: 70px;" class="" tappable (click)="navReset()"><span  style="color: black; "><u>Forget Password..?</u></span></p>
+<!-- <p *ngIf="switchCode" style="color: black;margin-top: 70px;" class="">Enter the Verification code send to {{club.email}}</p> -->
+</ion-row>

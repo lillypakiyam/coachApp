@@ -1,0 +1,36 @@
+<ion-content [fullscreen]="true" class="welcome">
+  <ion-content class="welcome-sub">
+  <ion-card class="login" style="box-shadow: none;">
+    <ion-img src="assets/logo.png"></ion-img>
+
+    <ion-segment color="dark" mode="ios" [(ngModel)]="tabs" (ionChange)="segmentChange($event)">
+      <ion-segment-button value="player">
+        <ion-label>Player</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="coach">
+        <ion-label>Coach</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="medics">
+        <ion-label>Medics</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="staff">
+        <ion-label>Staff</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+    <div [ngSwitch]="tabs">
+      <div *ngSwitchCase="'player'">
+        <app-player></app-player>
+      </div>
+      <div *ngSwitchCase="'coach'">
+        <app-coach></app-coach>
+      </div>
+      <div *ngSwitchCase="'medics'">
+        <app-medics></app-medics>
+      </div>
+      <div *ngSwitchCase="'staff'">
+        <app-staffs></app-staffs>
+      </div>
+    </div>
+  </ion-card>
+  </ion-content>
+</ion-content>        

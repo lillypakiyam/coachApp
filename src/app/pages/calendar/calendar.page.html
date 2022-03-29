@@ -1,0 +1,33 @@
+<ion-content> 
+
+  <!-- calendar start -->
+<ion-card *ngIf="!transition" style="padding-top: 30px; box-shadow: none;">
+ <div class="calendar-header">
+    <span class="change-button" tappable (click)="prevMonth()"><ion-icon name="chevron-back"></ion-icon></span>
+    <span class="month-picker">
+       {{month}} 
+    </span>
+    <span class="change-button" tappable (click)="nextMonth()"><ion-icon name="chevron-forward"></ion-icon></span>
+ </div> 
+ <div class="calendar-body">
+    <div class="calendar-weekdays" style="border-bottom: 1px solid gray; border-top: 1px solid grey">
+      <div style="color:black;" class="divdate">S</div>
+      <div style="color:black;" class="divdate">M</div>
+      <div style="color:black;" class="divdate">T</div>
+      <div style="color:black;" class="divdate">W</div>
+      <div style="color:black;" class="divdate">T</div>
+      <div style="color:black;" class="divdate">F</div>
+      <div style="color:black;" class="divdateD">S</div>
+    </div>
+  <div class="calendar-days ion-padding-top" style="border-bottom: 1px solid gray; border-top: 1px solid gray;
+   margin-top: 10px; border-left: 1px solid gray; border-right: 1px solid gray;">
+    <div *ngFor="let day of days">
+      <ion-label
+       [ngStyle]="currDateStyle(day)" 
+         tappable (click)="chooseDates(day)">{{day.date === 0 ? '' : day.date}}</ion-label> 
+    </div>
+    </div>
+ </div>
+</ion-card>
+<!-- calendar End -->
+</ion-content>

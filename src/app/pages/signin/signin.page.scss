@@ -1,0 +1,46 @@
+.welcome{
+    --background: #8ca2aa;
+  }
+  .welcome-sub{
+    --background: #8ca2aa;
+  }
+  .login{
+    --background: #8ca2aa;
+  }
+  
+  ion-slides {
+    --text-align: center;
+    height: 100%;
+    color: black;
+    --bullet-background: none;
+    --bullet-background-active: none;
+  }
+  
+  ion-slider-pager {
+    --moz-list-bullet-color: black;
+    --background-color:white;
+  }
+  
+  ion-slide {
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: white;
+    height: 100%;
+  }
+  .vl{
+    border-right: 2px solid lightgray;
+    height: fit-content;
+    height: 25px;
+  }
+  
+  .otpCard{
+    box-shadow: none !important;
+  }
+  
+  .alignCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

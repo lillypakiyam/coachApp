@@ -1,0 +1,18 @@
+projects:
+  querpassadmin-dev:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: angular
+        generatedFileName: src/app/API.service.ts
+        docsFilePath: src/graphql
+        region: eu-west-1
+        apiId: hgdlaosn45ccvattha6vzv7elq
+        maxDepth: 2
+extensions:
+  amplify:
+    version: 3

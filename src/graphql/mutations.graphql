@@ -1,0 +1,466 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateClubdb(
+  $input: CreateClubdbInput!
+  $condition: ModelClubdbConditionInput
+) {
+  createClubdb(input: $input, condition: $condition) {
+    id
+    club_name
+    first_name
+    last_name
+    email
+    password
+    logo
+    stadium_name
+    stadium_address
+    field_name1
+    field_name2
+    field_name3
+    field_address1
+    field_address2
+    field_address3
+    fitness_name
+    fitness_address
+    club_access
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateClubdb(
+  $input: UpdateClubdbInput!
+  $condition: ModelClubdbConditionInput
+) {
+  updateClubdb(input: $input, condition: $condition) {
+    id
+    club_name
+    first_name
+    last_name
+    email
+    password
+    logo
+    stadium_name
+    stadium_address
+    field_name1
+    field_name2
+    field_name3
+    field_address1
+    field_address2
+    field_address3
+    fitness_name
+    fitness_address
+    club_access
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteClubdb(
+  $input: DeleteClubdbInput!
+  $condition: ModelClubdbConditionInput
+) {
+  deleteClubdb(input: $input, condition: $condition) {
+    id
+    club_name
+    first_name
+    last_name
+    email
+    password
+    logo
+    stadium_name
+    stadium_address
+    field_name1
+    field_name2
+    field_name3
+    field_address1
+    field_address2
+    field_address3
+    fitness_name
+    fitness_address
+    club_access
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateCoachdb(
+  $input: CreateCoachdbInput!
+  $condition: ModelCoachdbConditionInput
+) {
+  createCoachdb(input: $input, condition: $condition) {
+    id
+    logo
+    coach_name
+    team_name
+    team_id
+    email
+    user_name
+    password
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateCoachdb(
+  $input: UpdateCoachdbInput!
+  $condition: ModelCoachdbConditionInput
+) {
+  updateCoachdb(input: $input, condition: $condition) {
+    id
+    logo
+    coach_name
+    team_name
+    team_id
+    email
+    user_name
+    password
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteCoachdb(
+  $input: DeleteCoachdbInput!
+  $condition: ModelCoachdbConditionInput
+) {
+  deleteCoachdb(input: $input, condition: $condition) {
+    id
+    logo
+    coach_name
+    team_name
+    team_id
+    email
+    user_name
+    password
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateTeamdb(
+  $input: CreateTeamdbInput!
+  $condition: ModelTeamdbConditionInput
+) {
+  createTeamdb(input: $input, condition: $condition) {
+    id
+    club_id
+    team_name
+    logo
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateTeamdb(
+  $input: UpdateTeamdbInput!
+  $condition: ModelTeamdbConditionInput
+) {
+  updateTeamdb(input: $input, condition: $condition) {
+    id
+    club_id
+    team_name
+    logo
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteTeamdb(
+  $input: DeleteTeamdbInput!
+  $condition: ModelTeamdbConditionInput
+) {
+  deleteTeamdb(input: $input, condition: $condition) {
+    id
+    club_id
+    team_name
+    logo
+    createdAt
+    updatedAt
+  }
+}
+mutation CreatePlayerdb(
+  $input: CreatePlayerdbInput!
+  $condition: ModelPlayerdbConditionInput
+) {
+  createPlayerdb(input: $input, condition: $condition) {
+    id
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    image
+    dob
+    address
+    height
+    weight
+    nationality
+    birthplace
+    languages
+    urgent_contact
+    preferred_foot
+    shirt_number
+    previous_club
+    license_number
+    transferred_players
+    first_license
+    national_team
+    positions
+    contract_length
+    teamwallet_admin
+    mobile_number
+    pain
+    intensive
+    feel_after_training
+    cool_after_training
+    hours_of_sleep
+    stressful
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdatePlayerdb(
+  $input: UpdatePlayerdbInput!
+  $condition: ModelPlayerdbConditionInput
+) {
+  updatePlayerdb(input: $input, condition: $condition) {
+    id
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    image
+    dob
+    address
+    height
+    weight
+    nationality
+    birthplace
+    languages
+    urgent_contact
+    preferred_foot
+    shirt_number
+    previous_club
+    license_number
+    transferred_players
+    first_license
+    national_team
+    positions
+    contract_length
+    teamwallet_admin
+    mobile_number
+    pain
+    intensive
+    feel_after_training
+    cool_after_training
+    hours_of_sleep
+    stressful
+    createdAt
+    updatedAt
+  }
+}
+mutation DeletePlayerdb(
+  $input: DeletePlayerdbInput!
+  $condition: ModelPlayerdbConditionInput
+) {
+  deletePlayerdb(input: $input, condition: $condition) {
+    id
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    image
+    dob
+    address
+    height
+    weight
+    nationality
+    birthplace
+    languages
+    urgent_contact
+    preferred_foot
+    shirt_number
+    previous_club
+    license_number
+    transferred_players
+    first_license
+    national_team
+    positions
+    contract_length
+    teamwallet_admin
+    mobile_number
+    pain
+    intensive
+    feel_after_training
+    cool_after_training
+    hours_of_sleep
+    stressful
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateMedicsdb(
+  $input: CreateMedicsdbInput!
+  $condition: ModelMedicsdbConditionInput
+) {
+  createMedicsdb(input: $input, condition: $condition) {
+    id
+    team_name
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateMedicsdb(
+  $input: UpdateMedicsdbInput!
+  $condition: ModelMedicsdbConditionInput
+) {
+  updateMedicsdb(input: $input, condition: $condition) {
+    id
+    team_name
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteMedicsdb(
+  $input: DeleteMedicsdbInput!
+  $condition: ModelMedicsdbConditionInput
+) {
+  deleteMedicsdb(input: $input, condition: $condition) {
+    id
+    team_name
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateDnadb(
+  $input: CreateDnadbInput!
+  $condition: ModelDnadbConditionInput
+) {
+  createDnadb(input: $input, condition: $condition) {
+    league_name
+    cup_name_1
+    cup_name_2
+    jersy_color
+    shorts_color
+    socks_color
+    player_home
+    player_away
+    player_third
+    goalkeeper_home
+    goalkeeper_away
+    goalkeeper_third
+    team_id
+    id
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateDnadb(
+  $input: UpdateDnadbInput!
+  $condition: ModelDnadbConditionInput
+) {
+  updateDnadb(input: $input, condition: $condition) {
+    league_name
+    cup_name_1
+    cup_name_2
+    jersy_color
+    shorts_color
+    socks_color
+    player_home
+    player_away
+    player_third
+    goalkeeper_home
+    goalkeeper_away
+    goalkeeper_third
+    team_id
+    id
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteDnadb(
+  $input: DeleteDnadbInput!
+  $condition: ModelDnadbConditionInput
+) {
+  deleteDnadb(input: $input, condition: $condition) {
+    league_name
+    cup_name_1
+    cup_name_2
+    jersy_color
+    shorts_color
+    socks_color
+    player_home
+    player_away
+    player_third
+    goalkeeper_home
+    goalkeeper_away
+    goalkeeper_third
+    team_id
+    id
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateStaffsdb(
+  $input: CreateStaffsdbInput!
+  $condition: ModelStaffsdbConditionInput
+) {
+  createStaffsdb(input: $input, condition: $condition) {
+    id
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateStaffsdb(
+  $input: UpdateStaffsdbInput!
+  $condition: ModelStaffsdbConditionInput
+) {
+  updateStaffsdb(input: $input, condition: $condition) {
+    id
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteStaffsdb(
+  $input: DeleteStaffsdbInput!
+  $condition: ModelStaffsdbConditionInput
+) {
+  deleteStaffsdb(input: $input, condition: $condition) {
+    id
+    team_id
+    first_name
+    last_name
+    user_name
+    email
+    password
+    createdAt
+    updatedAt
+  }
+}
